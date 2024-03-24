@@ -21,6 +21,28 @@ for (let i = 0; i < arr.length; i++) {
   arr[smi]=arr[i];
   arr[i]=temp
 }
-
 console.log(arr); // Output: -2
-
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&//
+//lec.5 bubble sort
+let a=[2,0,8,5,1,3,-9]
+let swap = false
+do{
+  swap=false
+  for (let i = 0; i < a.length - 1; i++) {
+    if (a[i] < a[i + 1]) {
+      [a[i], a[i + 1]] = [a[i + 1], a[i]]
+      swap=true
+    }
+  }
+} while(swap)
+console.log(a)
+// m3  bubble sort
+let a=[2,0,8,5,1,3]
+for(let j=0;j<a.length-1;j++){
+  for (let i = 0; i < a.length - 1; i++) {
+    if (a[i] > a[i + 1]) {
+      [a[i], a[i + 1]] = [a[i + 1], a[i]]
+    }
+  }
+}
+console.log(a)
