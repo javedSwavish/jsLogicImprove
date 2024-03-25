@@ -23,7 +23,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(arr); // Output: -2
 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&//
-//lec.5 bubble sort
+// bubble sort https://www.youtube.com/watch?v=gqMjdM8FsrE&list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP&index=20
 let a=[2,0,8,5,1,3,-9]
 let swap = false
 do{
@@ -36,7 +36,7 @@ do{
   }
 } while(swap)
 console.log(a)
-// m3  bubble sort
+// m3  bubble sort //self
 let a=[2,0,8,5,1,3]
 for(let j=0;j<a.length-1;j++){
   for (let i = 0; i < a.length - 1; i++) {
